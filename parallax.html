@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Projeto-Parallax</title>
+        <meta charset="utf-8">
+
+        <style type="text/css">
+
+            body, html {
+                margin: 0;
+                font: 16px "Lato", san-serif;
+                color:#777;
+                height: 100%;
+
+            }
+
+            .conteudo{
+                color: #777;
+                background-color: white;
+                text-align: center;
+                padding: 50px 80px;
+            
+            }
+
+            h3{
+                text-align: unset;
+                color: #111;
+                text-transform: uppercase;
+            }
+
+
+
+            /*Efeito Parallax*/
+
+            .pagina1, .pagina2, .pagina3, .pagina4 {
+
+
+                height:100%;
+                opacity: 0.8;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed; /*Efeito*/
+            }
+
+            .pagina1{
+               
+                background-image: url(imagens/imagem1.jpg);
+
+            }
+
+            .pagina2{
+                background-image: url(imagens/imagem2.jpg);
+
+            }
+            
+            .pagina3{
+                background-image: url(imagens/imagem3.jpg);
+            }
+
+            .pagina4{
+                background-image: url(imagens/imagem4.jpg);
+            }
+
+            .conteudo-titulo{
+                position:absolute;
+                left:0%;
+                top: 45%;
+                width: 100%;
+                text-align: center;
+               
+            }
+
+            .conteudo-titulo span.titulo {
+                color: #fff;
+                background-color: #111;
+                padding: 18px;
+                font-size: 25px;
+                letter-spacing: 5px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+        </style> 
+
+    </head>
+    <body>
+
+
+        <div class="pagina1">
+            <div class="conteudo-titulo">
+                <span class="titulo"> Passeio de Balão</span>
+            </div>
+
+        </div>
+
+        <div class="conteudo">
+            <h3>Parallax</h3>
+            <p>Lorem ipsum is placeholder text commonly used in the graphic,
+                 print, and publishing industries for previewing layouts and visual mockups.</p>
+        </div>
+
+        <div class="pagina2">
+            <div class="conteudo-titulo">
+                <span class="titulo"> Passeio de Balão</span>
+            </div>
+
+        </div>
+
+
+    
+
+        <div class="conteudo">
+            <h3>Parallax</h3>
+            <p>Lorem ipsum is placeholder text commonly used in the graphic,
+                 print, and publishing industries for previewing layouts and visual mockups 
+                 Lorem ipsum is placeholder text commonly used in the graphic,
+                 print, and publishing industries for previewing layouts and visual mockups.</p>
+        </div>
+
+        <div class="pagina3">
+            <div class="conteudo-titulo">
+                <span class="titulo"> Passeio de Balão</span>
+            </div>
+
+        </div>
+
+
+
+        <div class="conteudo">
+            <h3>Parallax</h3>
+            <p>Lorem ipsum is placeholder text commonly used in the graphic,
+                 print, and publishing industries for previewing layouts and visual mockups 
+                 Lorem ipsum is placeholder text commonly used in the graphic,
+                 print, and publishing industries for previewing layouts and visual mockups.</p>
+        </div>
+
+        <div class="pagina4">
+            <div class="conteudo-titulo">
+                <span class="titulo"> Passeio de Balão</span>
+            </div>
+
+        </div>
+
+
+
+
+    </body>
+</html>         
